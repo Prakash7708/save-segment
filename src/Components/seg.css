@@ -1,0 +1,93 @@
+.navseg{
+    background-color: rgb(49, 161, 180);
+    width: 103%;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 17px;
+}
+.content{
+    background-color: white;
+    height: 89vh;
+    display: grid;
+    width: 103%;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+}
+
+.div1{
+    display: grid;
+    align-items: center;
+    margin: 20px;
+}
+.div2{
+    margin-left: 20px;
+}
+.newschema{
+   color: rgb(76, 187, 187);
+   text-decoration: underline;
+   font-weight: bold;
+}
+.div3 button{
+    margin-top: 37px;
+    margin-left: 20px;
+}
+.div3 :nth-child(1){
+    color: white;
+    border: none;
+    background-color: rgb(45, 175, 125);
+    padding: 6px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.div3 :nth-child(2){
+    color: red;
+    background-color:rgb(219, 209, 209) ;
+    border: none;
+    padding: 6px;
+    border-radius: 2px;
+}
+.traits{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.traits span{
+    margin-left: 4px;
+    margin-right: 8px;
+}
+.values{
+    display: flex;
+}
+.borderdiv{
+    padding: 20px;
+    border: 2px solid rgb(71, 231, 252);
+}
+.values :nth-child(2){
+    margin: 10px;
+}
+.values :nth-child(3){
+    text-align: center;
+    margin-top: 5px;
+    width: 20px;
+    color: rgb(57, 134, 134);
+}
+/* input[type='radio'] {
+    accent-color: #ee1212;
+} */
+.radio1{
+    accent-color: #41c735;
+}
+.radio2{
+    accent-color: red;
+}
+.radio0{
+    accent-color: white;
+}
